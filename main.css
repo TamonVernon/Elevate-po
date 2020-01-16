@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2,
+h3,
+h4 {
+  color: #020020;
+}
+/* ////////////////////////////////////Top Area Beginning///////////////////////////////////////////// */
+#top-area {
+  background-image: url(https://i.postimg.cc/P5VhBwXD/mountains-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+#top-area .container {
+  padding: 70px 25px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 80%;
+}
+#top-area h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: 'poppins', sans-serif;
+}
+#top-area h1 span {
+  border: 3px solid #000;
+  padding: 0 15px;
+}
+#top-area h2 {
+  font-family: 'poppins', sans-serif;
+  font-size: 3.5rem;
+  margin: 35px 0;
+  line-height: 1.2;
+}
+#top-area p {
+  color: #4c515d;
+  font-family: 'roboto', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 60px;
+  padding: 0 85px;
+}
+#top-area .button-container button {
+  background: #ff1010;
+  color: #fff;
+  width: 260px;
+  border: none;
+  padding: 24px;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+#top-area .button-container button:hover {
+  background-color: rgb(172, 5, 22);
+  border-color: rgb(172, 5, 22);
+  color: rgba(255, 255, 255, 1);
+}
+/* ////////////////////////////////////Top Area Ending///////////////////////////////////////////// */
+/* ////////////////////////////////////Timer Area Beginning///////////////////////////////////////////// */
+#timers {
+  background: #f2f4f7;
+}
+#timers .container {
+  padding: 35px 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#timers .container h2 {
+  font-size: 1.5rem;
+  font-family: 'poppins', sans-serif;
+}
+#timers .container .countdown-containers {
+  margin-top: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#timers .container .countdown-containers .countdown {
+  font-family: 'roboto', sans-serif;
+  color: #4c515d;
+  text-transform: uppercase;
+}
+#timers .container .countdown-containers .countdown .number {
+  font-size: 5.5rem;
+}
+#timers .container .countdown-containers .countdown .time {
+  font-size: 1.2rem;
+}
+/* ////////////////////////////////////Timer Area Ending///////////////////////////////////////////// */
+/* ////////////////////////////////////Info Area Start///////////////////////////////////////////// */
+
+#info .container {
+  padding: 70px 45px;
+}
+#info .container .row-container img {
+  width: 100%;
+  height: 100%;
+}
+#info .container .row-container .row1 {
+  display: grid;
+  grid-gap: 45px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+#info .container .row-container .row1 h3 {
+  font-size: 1.5rem;
+  font-family: 'poppins', sans-serif;
+  margin: 20px 0;
+}
+#info .container .row-container .row1 p {
+  font-family: 'roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #4c515d;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+#info .container .row-container .row1 .right-container ul {
+  font-family: 'roboto', sans-serif;
+  color: #4c515d;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  justify-content: center;
+  align-content: center;
+  margin-left: 30px;
+}
+#info .container .row-container .row2 {
+  display: grid;
+  grid-gap: 45px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 45px;
+}
+#info .container .row-container .row2 h3 {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+#info .container .row-container .row2 p {
+  font-family: 'roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #4c515d;
+  line-height: 1.8;
+}
+/* ////////////////////////////////////Info Area End///////////////////////////////////////////// */
+/* ////////////////////////////////////Speaker Area Start///////////////////////////////////////////// */
+#speakers {
+  background: #f2f4f7;
+}
+#speakers .container {
+  padding: 70px 45px;
+  text-align: center;
+}
+
+#speakers .container h3 {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 45px;
+}
+#speakers .container img {
+  width: 100%;
+  height: 100%;
+}
+#speakers .container .speaker-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 45px;
+}
+
+#speakers .container .speaker-row h4 {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+#speakers .container .speaker-row {
+  font-family: 'roboto', sans-serif;
+  font-size: 1rem;
+  color: #4c515d;
+}
+/* ////////////////////////////////////Speaker Area End///////////////////////////////////////////// */
+/* ////////////////////////////////////Bottom Area Start///////////////////////////////////////////// */
+#bottom-area .container {
+  padding: 70px 45px;
+  text-align: center;
+}
+#bottom-area .container h2 {
+  font-size: 1.5rem;
+  font-family: 'poppins', sans-serif;
+}
+#bottom-area .container .countdown-containers {
+  display: flex;
+  justify-content: space-around;
+  color: #4c515d;
+  margin: 65px 0;
+}
+#bottom-area .container .countdown-containers .countdown {
+  font-family: 'roboto', sans-serif;
+  text-transform: uppercase;
+}
+#bottom-area .container .countdown-containers .countdown .number {
+  font-size: 4.5rem;
+}
+#bottom-area .container .countdown-containers .countdown .time {
+  font-size: 1.2rem;
+}
+#bottom-area button {
+  background: #ff1010;
+  color: #fff;
+  width: 260px;
+  border: none;
+  padding: 24px;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+#bottom-area button:hover {
+  background-color: rgb(172, 5, 22);
+  border-color: rgb(172, 5, 22);
+  color: rgba(255, 255, 255, 1);
+}
+/* ////////////////////////////////////Bottom Area End///////////////////////////////////////////// */
+/* ////////////////////////////////////Footer Area Start///////////////////////////////////////////// */
+footer {
+  background: #020020;
+}
+footer .container {
+  padding: 70px 45px;
+  color: #b1bacc;
+  font-family: 'roboto', sans-serif;
+}
+footer .container a {
+  text-decoration: none;
+  color: #b1bacc;
+  margin: 10px 0;
+  width: 120px;
+  transition: all 0.3s ease-in-out;
+}
+footer .container a:hover {
+  color: #4c515d;
+}
+footer .container .footer-info {
+  text-align: center;
+}
+footer .container .footer-info .terms {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+/* ////////////////////////////////////Footer Area End///////////////////////////////////////////// */
+
+/* //////////////////////////////////// Media-Queries Area Start///////////////////////////////////////////// */
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+  #speakers .container .speaker-row {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
+/* Phones */
+@media only screen and (max-width: 767px) {
+  #top-area .container {
+    height: auto;
+  }
+  #top-area .container h1 {
+    font-size: 3rem;
+  }
+  #top-area .container h2 {
+    font-size: 2rem;
+  }
+  #top-area .container p {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  #timers .container h2 {
+    font-size: 1.2rem;
+  }
+  #timers .container .countdown-containers .countdown .number {
+    font-size: 2.5rem;
+  }
+  #timers .container .countdown-containers .countdown .time {
+    font-size: 0.8rem;
+  }
+  #info .container .row-container .row1 {
+    grid-template-columns: 1fr;
+  }
+  #info .container .row-container .row1 p {
+    font-size: 1rem;
+  }
+  #info .container .row-container .row1 .right-container ul {
+    font-size: 1rem;
+  }
+  #info .container .row-container .row2 p {
+    font-size: 1rem;
+  }
+  #info .container .row-container .row2 {
+    grid-template-columns: 1fr;
+  }
+  #speakers .container .speaker-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 45px;
+  }
+  #bottom-area .container {
+    padding: 70px 15px;
+  }
+  #bottom-area .container h2 {
+    font-size: 1.2rem;
+  }
+  #bottom-area .container .countdown-containers {
+    margin: 30px 0;
+  }
+  #bottom-area .container .countdown-containers .countdown .number {
+    font-size: 2.5rem;
+  }
+  #bottom-area .container .countdown-containers .countdown .time {
+    font-size: 0.8rem;
+  }
+  #bottom-area button {
+    width: 225px;
+  }
+  footer .container {
+    padding: 50px 15px;
+  }
+}
+/* //////////////////////////////////// Media-Queries Area End///////////////////////////////////////////// */
