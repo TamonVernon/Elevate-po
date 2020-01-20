@@ -272,7 +272,7 @@ footer .container .footer-info .terms {
   }
 }
 /* /iPad Pro */
-@media only screen and (min-width: 992px) and (max-width: 1024px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1024px) {
   #top-area h1 {
     font-size: 9rem;
   }
@@ -287,9 +287,9 @@ footer .container .footer-info .terms {
     padding: 50px;
     font-size: 2rem;
   }
-}
+} */
 /* iPad */
-@media only screen and (min-width: 768px) and (max-width: 850px) {
+/* @media only screen and (min-width: 768px) and (max-width: 850px) {
   #top-area h1 {
     font-size: 6rem;
   }
@@ -301,7 +301,7 @@ footer .container .footer-info .terms {
     font-size: 1.4rem;
     padding: 40px;
   }
-}
+} */
 /* Phones */
 @media only screen and (max-width: 767px) {
   #top-area .container h1 {
